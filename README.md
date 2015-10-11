@@ -4,19 +4,29 @@ EN: Describe the JS Fundamental Concepts which allow us to understand the abstra
 SP: Describir los Conceptos Fundamentales de JavaScript que nos permiten entender la abstraction de este lenguage.
 
 ### Table of Contents
-**[Closure](#closure)**
-**[Composition](#composition)**
-**[Currying](#currying)**
-**[Factory](#factory)**
+**[Closure](#closure)** <br/>
+**[Composition](#composition)** <br/>
+**[Currying](#currying)** <br/>
+**[Factory](#factory)** <br/>
 
-## Closure
-<h1>A</h1>
+### Closure
+EN: When a function uses a variable which was declared outside that function. <br />
+SP: Cuando una función utiliza una variable la cual fue declarada fuera de dicha función.
 
-## Composition
+```javascript
+var name = 'Jhon';
+
+function fullName(){
+  name = name + ' Doe';
+  return name;
+}
+```
+
+### Composition
 <h1>B</h1>
 
-## Currying
+### Currying
 <h1>C</h1>
 
-## Factory
+### Factory
 <h1>D</h1>
