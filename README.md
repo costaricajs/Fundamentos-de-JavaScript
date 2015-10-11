@@ -10,7 +10,7 @@ SP: Describir los Conceptos Fundamentales de JavaScript que nos permiten entende
 **[Factory](#factory)** <br/>
 
 ### Closure
-EN: When a function uses a variable which was declared outside that function. <br />
+EN: When a function uses a variable defined outside that function. <br />
 SP: Cuando una función utiliza una variable la cual fue declarada fuera de dicha función.
 
 ```javascript
