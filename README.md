@@ -10,6 +10,7 @@ SP: Describir los Conceptos Fundamentales de JavaScript que nos permiten entende
 **[Encapsulation](#encapsulation)** <br/>
 **[Factory](#factory)** <br/>
 **[Inheritance](#inheritance)** <br/>
+**[Scope](#scope)** <br/>
 
 ### Closure
 EN: When a function uses a variable defined outside that function. <br />
@@ -75,7 +76,8 @@ SP: Nos permite conservar declaraciones públicas y privadas en un solo objeto.
 ```javascript
 var security = function() {
   
-  var creditCard = '1111-2222-3333'; // Private
+  // Private
+  var creditCard = '1111-2222-3333';
   
   return {
     // Public
@@ -124,8 +126,26 @@ var calculator = {
     }
 }
 
-var cal = Object.create(calculator); // Inherit calculator
+var cal = Object.create(calculator); /* Inherit calculator */
 
 cal.sum(2,2);      // 4
 cal.subtract(2,2); // 0
+```
+
+### Scope
+EN: It is the hierarchy about how to access variables, objects and functions. <br />
+SP: Es la jerarquía sobre cómo accesar las variables, objetos y funciones.
+
+```javascript
+var street = 'AVE51325';  /* Global variable */
+
+function myScope() {
+  var direction = 'SF91'; /* Just exists inside the function */
+  console.log(direction); // SF91
+  console.log(street);    // AVE51325
+}
+
+myScope();
+
+console.log(direction);   // direction is not defined
 ```
