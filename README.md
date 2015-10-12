@@ -51,7 +51,7 @@ EN: It consists on convert a function with multiple parameters / arity in differ
 SP: Consiste en convertir una función con múltiples parámetros / arity en diferentes funciones con menos parámetros.
 
 ```javascript
-// Convert From
+// Converted From
 var person = function(name, first, last) {
   return 'My Name is ' + name + ' ' + first + ' ' + last;
 }
@@ -69,7 +69,31 @@ Jhon('Blast'); // My Name is Jhon Doe Blast
 ```
 
 ### Encapsulation
-<h1>N/D</h1>
+EN: It allows us to conserve private and public declarations in a single object. <br />
+SP: Nos permite conservar declaraciones públicas y privadas en un solo objeto.
+
+```javascript
+var security = function() {
+  
+  var creditCard = '1111-2222-3333'; // Private
+  
+  return {
+    // Public
+    showCreditCard: function() {
+      console.log('Your credit card is ' + creditCard);
+    }
+  }
+  
+}
+
+var sec = security();
+
+sec.showCreditCard();   // Your credit card is 1111-2222-3333
+
+sec.creditCard = '11';  // Try to change the credit card value but It's not possible
+
+sec.showCreditCard();   // Your credit card is 1111-2222-3333
+```
 
 ### Factory
 <h1>N/D</h1>
