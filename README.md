@@ -4,6 +4,7 @@ EN: Describe the JS Fundamental Concepts which allow us to understand the abstra
 SP: Describir los Conceptos Fundamentales de JavaScript que nos permiten entender la abstraction de este lenguage.
 
 ### Table of Contents
+**[Chain Functions](#chainfunctions)** <br/>
 **[Closure](#closure)** <br/>
 **[Composition](#composition)** <br/>
 **[Currying](#currying)** <br/>
@@ -11,6 +12,37 @@ SP: Describir los Conceptos Fundamentales de JavaScript que nos permiten entende
 **[Factory](#factory)** <br/>
 **[Inheritance](#inheritance)** <br/>
 **[Scope](#scope)** <br/>
+
+### Chain Functions
+EN: Technique to simplify run multiple methods over a same variables and/or objects. <br />
+SP: Técnica para simplificar la ejecución de múltiples métodos sobre una misma variable u objeto.
+
+```javascript
+var cal = function(num) {
+  var num = num || 0;
+  return {
+    sum: function(num2){
+      num = num + num2;
+      return this;           /* return this which is the object which contains sum and subtract */
+    },
+    subtract: function(num2){
+      num = num - num2;
+      return this;          /* return this which is the object which contains sum and subtract */
+    },
+    displayTotal: function(){
+      console.log(num);
+      return this;
+    }
+  }
+};
+
+var calculator = cal(10);   /* num = 10 */
+
+calculator.sum(10)          /* num = 20 */
+          .subtract(2)      /* num = 18 */
+          .sum(5)           /* num = 23 */
+          .displayTotal();  // 23
+```
 
 ### Closure
 EN: When a function uses a variable defined outside that function. <br />
