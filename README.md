@@ -96,7 +96,19 @@ sec.showCreditCard();   // Your credit card is 1111-2222-3333
 ```
 
 ### Factory
-<h1>N/D</h1>
+EN: It is a function that returns a new object. <br />
+SP: Es una función que retorna un nuevo objeto.
+
+```javascript
+function calculator() {
+  return { 
+    sum: function(num1, num2) { return num1 + num2; }
+  }
+}
+
+var cal = calculator();
+cal.sum(1,2);
+```
 
 ### Inheritance
 <h1>N/D</h1>
