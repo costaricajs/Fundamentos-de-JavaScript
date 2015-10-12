@@ -90,7 +90,7 @@ var sec = security();
 
 sec.showCreditCard();   // Your credit card is 1111-2222-3333
 
-sec.creditCard = '11';  // Try to change the credit card value but It's not possible
+sec.creditCard = '11';  /* You can try to change the credit card value but It's not possible */
 
 sec.showCreditCard();   // Your credit card is 1111-2222-3333
 ```
@@ -111,4 +111,21 @@ cal.sum(1,2);
 ```
 
 ### Inheritance
-<h1>N/D</h1>
+EN: Link methods and/or properties from one object to another. <br />
+SP: Relacionar métodos y/o propiedades de un objeto a otro.
+
+```javascript
+var calculator = {
+    sum: function(num1, num2) {
+      return num1 + num2;
+    },
+    subtract: function(num1, num2) {
+      return num1 - num2;
+    }
+}
+
+var cal = Object.create(calculator); // Inherit calculator
+
+cal.sum(2,2);      // 4
+cal.subtract(2,2); // 0
+```
