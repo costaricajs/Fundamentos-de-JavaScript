@@ -194,8 +194,8 @@ var person = {
 ```
 
 ### Polymorphism
-EN: The possibility to run common methods between different objects without alter the result. <br />
-SP: La posibilidad de correr métodos en común de diferentes objectos sin alterar el resultado.
+EN: The possibility to call common methods between different objects without alter the result. <br />
+SP: La posibilidad de llamar métodos en común de diferentes objectos sin alterar el resultado.
 
 ```javascript
 function fruit(width, height) {
