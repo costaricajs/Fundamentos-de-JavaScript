@@ -147,5 +147,6 @@ function myScope() {
 
 myScope();
 
+console.log(street);      // AVE51325
 console.log(direction);   // direction is not defined
 ```
