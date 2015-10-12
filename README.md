@@ -4,12 +4,13 @@ EN: Describe the JS Fundamental Concepts which allow us to understand the abstra
 SP: Describir los Conceptos Fundamentales de JavaScript que nos permiten entender la abstraction de este lenguage.
 
 ### Table of Contents
-**[Chain Functions](#chainfunctions)** <br/>
+**[Chain Functions](#chain functions)** <br/>
 **[Closure](#closure)** <br/>
 **[Composition](#composition)** <br/>
 **[Currying](#currying)** <br/>
 **[Encapsulation](#encapsulation)** <br/>
 **[Factory](#factory)** <br/>
+**[Higher-Order Functions](#higher-order functions)** <br/>
 **[Inheritance](#inheritance)** <br/>
 **[Scope](#scope)** <br/>
 
@@ -142,6 +143,19 @@ function calculator() {
 
 var cal = calculator();
 cal.sum(1,2);
+```
+
+### Higher-Order Functions
+EN: It is a function that can take another function as parameter. <br />
+SP: Es una función que puede recibir otra función como parámetro.
+
+```javascript
+function sum(num) {
+  return num + 10
+}
+
+/* forEach is a function that receives another function */
+[1,2,3].forEach(sum); // 11 // 12 // 13
 ```
 
 ### Inheritance
