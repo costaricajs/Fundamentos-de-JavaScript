@@ -26,7 +26,7 @@ function fullName(){
 
 ### Composition
 EN: When you combine two or more functions in order to create a new one. <br />
-SP: Cuando combinamos dos o más funciones para crear una función nueva, la cual contiene las funciones anteriores.
+SP: Cuando combinamos dos o más funciones para crear una nueva, la cual contiene las funciones anteriores.
 
 ```javascript
 var walk = function walk(name) {
@@ -47,7 +47,26 @@ Jhon.talk; // Jhon is talking
 ```
 
 ### Currying
-<h1>N/D</h1>
+EN: It consists on convert a function with multiple parameters / arity in different functions with less parameters / arity. <br />
+SP: Consiste en convertir una función con múltiples parámetros / arity en diferentes funciones con menos parámetros.
+
+```javascript
+// Convert From
+var person = function(name, first, last) {
+  return 'My Name is ' + name + ' ' + first + ' ' + last;
+}
+// To
+var person = function (name) {
+  return function (first) {
+    return function (last) {
+      return 'My Name is ' + name + ' ' + first + ' ' + last;
+    }
+  }
+};
+
+var Jhon = person('Jhon')('Doe');
+Jhon('Blast'); // My Name is Jhon Doe Blast
+```
 
 ### Encapsulation
 <h1>N/D</h1>
