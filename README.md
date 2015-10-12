@@ -4,13 +4,13 @@ EN: Describe the JS Fundamental Concepts which allow us to understand the abstra
 SP: Describir los Conceptos Fundamentales de JavaScript que nos permiten entender la abstraction de este lenguage.
 
 ### Table of Contents
-**[Chain Functions](#chain functions)** <br/>
+**[Chain Functions](#chain-functions)** <br/>
 **[Closure](#closure)** <br/>
 **[Composition](#composition)** <br/>
 **[Currying](#currying)** <br/>
 **[Encapsulation](#encapsulation)** <br/>
 **[Factory](#factory)** <br/>
-**[Higher-Order Functions](#higher-order functions)** <br/>
+**[Higher-Order Functions](#higher-order-functions)** <br/>
 **[Inheritance](#inheritance)** <br/>
 **[Scope](#scope)** <br/>
 
