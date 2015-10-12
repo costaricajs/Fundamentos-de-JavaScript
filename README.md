@@ -12,6 +12,7 @@ SP: Describir los Conceptos Fundamentales de JavaScript que nos permiten entende
 **[Factory](#factory)** <br/>
 **[Higher-Order Functions](#higher-order-functions)** <br/>
 **[Inheritance](#inheritance)** <br/>
+**[Object Literal](#object-literal)** <br/>
 **[Scope](#scope)** <br/>
 
 ### Chain Functions
@@ -176,6 +177,19 @@ var cal = Object.create(calculator); /* Inherit calculator */
 
 cal.sum(2,2);      // 4
 cal.subtract(2,2); // 0
+```
+
+### Object Literal
+EN: It is an object which contains between curly braces properties with name:value format divided by commas. <br />
+SP: Es un objecto que contiene entre llaves propiedades con formato nombre:valor separados por comas.
+
+```javascript
+var person = {
+  hands : 2,
+  legs  : 2,
+  walk  : function() { console.log('Walking'); },
+  talk  : function() { console.log('Talking'); }
+}
 ```
 
 ### Scope
