@@ -13,6 +13,7 @@ SP: Describir los Conceptos Fundamentales de JavaScript que nos permiten entende
 **[Higher-Order Functions](#higher-order-functions)** <br/>
 **[Inheritance](#inheritance)** <br/>
 **[Object Literal](#object-literal)** <br/>
+**[Polymorphism](#polymorphism)** <br/>
 **[Scope](#scope)** <br/>
 
 ### Chain Functions
@@ -190,6 +191,47 @@ var person = {
   walk  : function() { console.log('Walking'); },
   talk  : function() { console.log('Talking'); }
 }
+```
+
+### Polymorphism
+EN: The possibility to run common methods between different objects without alter the result. <br />
+SP: La posibilidad de correr métodos en común de diferentes objectos sin alterar el resultado.
+
+```javascript
+function fruit(width, height) {
+  var width = width, height = height;
+  
+  return {
+  
+    description: function() { 
+      console.log('A. Fruit dimension w-' + width + ' / h-' + height);
+    }
+    
+  }
+};
+
+function market(width, height, price) {
+  var width = width, height = height, price = price;
+  
+  return {
+  
+    description: function() { 
+      console.log('B. Fruit dimension w-' + width + ' / h-' + height + ' / $' + price);
+    }
+    
+  }
+};
+
+function showDescription(obj) {
+  if (typeof obj.description == 'function')
+    obj.description(); /* <-- Polymorphism */
+}
+
+var myFruit  = fruit(50,60);
+var myMarket  = market(50,60,25);
+
+showDescription(myFruit);   // A. Fruit dimension w-50 / h-60
+showDescription(myMarket);  // B. Fruit dimension w-50 / h-60 / $25
 ```
 
 ### Scope
