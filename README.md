@@ -52,12 +52,15 @@ EN: When a function uses a variable defined outside that function. <br />
 SP: Cuando una función utiliza una variable la cual fue declarada fuera de dicha función.
 
 ```javascript
-var name = 'Jhon';
+var print = (function(){
+  var h = 'hola';
+  function printH(){
+    console.log(h);
+  }
+  return printH;
+})();
 
-function fullName(){
-  name = name + ' Doe';
-  return name;
-}
+print(); // =>  'hola'
 ```
 
 ### Composition
@@ -110,17 +113,17 @@ SP: Nos permite conservar declaraciones públicas y privadas en un solo objeto.
 
 ```javascript
 var security = function() {
-  
+
   // Private
   var creditCard = '1111-2222-3333';
-  
+
   return {
     // Public
     showCreditCard: function() {
       console.log('Your credit card is ' + creditCard);
     }
   }
-  
+
 }
 
 var sec = security();
@@ -138,7 +141,7 @@ SP: Es una función que retorna un nuevo objeto.
 
 ```javascript
 function calculator() {
-  return { 
+  return {
     sum: function(num1, num2) { return num1 + num2; }
   }
 }
@@ -200,25 +203,25 @@ SP: La posibilidad de llamar métodos en común de diferentes objectos sin alter
 ```javascript
 function fruit(width, height) {
   var width = width, height = height;
-  
+
   return {
-  
-    description: function() { 
+
+    description: function() {
       console.log('A. Fruit dimension w-' + width + ' / h-' + height);
     }
-    
+
   }
 };
 
 function market(width, height, price) {
   var width = width, height = height, price = price;
-  
+
   return {
-  
-    description: function() { 
+
+    description: function() {
       console.log('B. Fruit dimension w-' + width + ' / h-' + height + ' / $' + price);
     }
-    
+
   }
 };
 
