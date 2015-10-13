@@ -1,21 +1,23 @@
 # Conceptos Fundamentales en JavaScript
 
+_Por favor notar que este documento en proceso de creación, las contribuciones son bienvenidas._  
+
 Descripción los Conceptos Fundamentales de JavaScript que nos permiten entender la abstraction de este lenguage.
 
-### Table of Contents
-**[Chain Functions](#chain-functions)** <br/>
+### Tabla de Contenidos
+**[Funciones en Cadena](#chain-en-cadena)** <br/>
 **[Closure](#closure)** <br/>
-**[Composition](#composition)** <br/>
+**[Composición](#composicion)** <br/>
 **[Currying](#currying)** <br/>
-**[Encapsulation](#encapsulation)** <br/>
-**[Factory](#factory)** <br/>
-**[Higher-Order Functions](#higher-order-functions)** <br/>
-**[Inheritance](#inheritance)** <br/>
-**[Object Literal](#object-literal)** <br/>
-**[Polymorphism](#polymorphism)** <br/>
-**[Scope](#scope)** <br/>
+**[Encapsulación](#encapsulación)** <br/>
+**[Fábrica](#fabrica)** <br/>
+**[Funciones de Orden Mayor](#funciones-de-orden-mayor)** <br/>
+**[Herencia](#herencia)** <br/>
+**[Objectos Literales](#objectos-literales)** <br/>
+**[Polymorfismo](#polymorfismo)** <br/>
+**[Alcance](#alcance)** <br/>
 
-### Chain Functions
+### Funciones en Cadena
 
 Técnica para simplificar la ejecución de múltiples métodos sobre una misma variable u objeto.
 
@@ -61,7 +63,7 @@ var print = (function(){
 print(); // =>  'hola'
 ```
 
-### Composition
+### Composición
 Cuando combinamos dos o más funciones para crear una nueva, la cual contiene las funciones anteriores.
 
 ```javascript
@@ -103,7 +105,7 @@ var Jhon = person('Jhon')('Doe');
 Jhon('Blast'); // My Name is Jhon Doe Blast
 ```
 
-### Encapsulation
+### Encapsulación
 Nos permite conservar declaraciones públicas y privadas en un solo objeto.
 
 ```javascript
@@ -130,7 +132,7 @@ sec.creditCard = '11';  /* You can try to change the credit card value but It's 
 sec.showCreditCard();   // Your credit card is 1111-2222-3333
 ```
 
-### Factory
+### Fábricas
 Es una función que retorna un nuevo objeto.
 
 ```javascript
@@ -144,9 +146,8 @@ var cal = calculator();
 cal.sum(1,2);
 ```
 
-### Higher-Order Functions
-EN: It is a function that can take another function as parameter. <br />
-SP: Es una función que puede recibir otra función como parámetro.
+### Funciones de Orden Mayor 
+Es una función que puede recibir otra función como parámetro.
 
 ```javascript
 function sum(num) {
@@ -157,7 +158,7 @@ function sum(num) {
 [1,2,3].forEach(sum); // 11 // 12 // 13
 ```
 
-### Inheritance
+### Herencia
 Relacionar métodos y/o propiedades de un objeto a otro.
 
 ```javascript
@@ -176,7 +177,7 @@ cal.sum(2,2);      // 4
 cal.subtract(2,2); // 0
 ```
 
-### Object Literal
+### Objectos Literales
 Es un objecto que contiene entre llaves propiedades con formato nombre:valor separados por comas.
 
 ```javascript
@@ -188,7 +189,7 @@ var person = {
 }
 ```
 
-### Polymorphism
+### Polymorfismo
 La posibilidad de llamar métodos en común de diferentes objectos sin alterar el resultado.
 
 ```javascript
@@ -228,7 +229,7 @@ showDescription(myFruit);   // A. Fruit dimension w-50 / h-60
 showDescription(myMarket);  // B. Fruit dimension w-50 / h-60 / $25
 ```
 
-### Scope
+### Alcance
 Es la jerarquía sobre cómo accesar las variables, objetos y funciones.
 
 ```javascript
