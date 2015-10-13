@@ -52,12 +52,19 @@ EN: When a function uses a variable defined outside that function. <br />
 SP: Cuando una función utiliza una variable la cual fue declarada fuera de dicha función.
 
 ```javascript
-var name = 'Jhon';
+var person = function(){
+  
+  var name = 'Jhon';
 
-function fullName(){
-  name = name + ' Doe';
-  return name;
+  return {
+    showFullName: function(last){
+      return name + ' ' + last; /* <-- Closure: we have access to the name variable */
+    }
+  }
 }
+
+var Jhon = person();
+Jhon.showFullName('Doe');       // Jhon Doe
 ```
 
 ### Composition
