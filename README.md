@@ -94,11 +94,11 @@ EN: It consists on convert a function with multiple parameters / arity in differ
 SP: Consiste en convertir una función con múltiples parámetros / arity en diferentes funciones con menos parámetros.
 
 ```javascript
-// Converted From
+// function without currying format
 var person = function(name, first, last) {
   return 'My Name is ' + name + ' ' + first + ' ' + last;
 }
-// To
+// function with currying format
 var person = function (name) {
   return function (first) {
     return function (last) {
