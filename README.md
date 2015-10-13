@@ -14,7 +14,7 @@ Descripción los Conceptos Fundamentales de JavaScript que nos permiten entender
 **[Funciones de Orden Mayor](#funciones-de-orden-mayor)** <br/>
 **[Herencia](#herencia)** <br/>
 **[Objectos Literales](#objectos-literales)** <br/>
-**[Polymorfismo](#polymorfismo)** <br/>
+**[Polimorfismo](#polimorfismo)** <br/>
 **[Alcance](#alcance)** <br/>
 
 ### Funciones en Cadena
@@ -189,7 +189,7 @@ var person = {
 }
 ```
 
-### Polymorfismo
+### Polimorfismo
 La posibilidad de llamar métodos en común de diferentes objectos sin alterar el resultado.
 
 ```javascript
