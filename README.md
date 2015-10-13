@@ -1,7 +1,6 @@
-# JSFundamentals
-EN: Describe the JS Fundamental Concepts which allow us to understand the abstraction of this language.
-<br />
-SP: Describir los Conceptos Fundamentales de JavaScript que nos permiten entender la abstraction de este lenguage.
+# Conceptos Fundamentales en JavaScript
+
+Descripción los Conceptos Fundamentales de JavaScript que nos permiten entender la abstraction de este lenguage.
 
 ### Table of Contents
 **[Chain Functions](#chain-functions)** <br/>
@@ -17,8 +16,8 @@ SP: Describir los Conceptos Fundamentales de JavaScript que nos permiten entende
 **[Scope](#scope)** <br/>
 
 ### Chain Functions
-EN: Technique to simplify run multiple methods over a same variables and/or objects. <br />
-SP: Técnica para simplificar la ejecución de múltiples métodos sobre una misma variable u objeto.
+
+Técnica para simplificar la ejecución de múltiples métodos sobre una misma variable u objeto.
 
 ```javascript
 var cal = function(num) {
@@ -48,28 +47,22 @@ calculator.sum(10)          /* num = 20 */
 ```
 
 ### Closure
-EN: When a function uses a variable defined outside that function. <br />
-SP: Cuando una función utiliza una variable la cual fue declarada fuera de dicha función.
+Cuando una función utiliza una variable la cual fue declarada fuera de dicha función.
 
 ```javascript
-var person = function(){
-  
-  var name = 'Jhon';
-
-  return {
-    showFullName: function(last){
-      return name + ' ' + last; /* <-- Closure: we have access to the name variable */
-    }
+var print = (function(){
+  var h = 'hola';
+  function printH(){
+    console.log(h);
   }
-}
+  return printH;
+})();
 
-var Jhon = person();
-Jhon.showFullName('Doe');       // Jhon Doe
+print(); // =>  'hola'
 ```
 
 ### Composition
-EN: When you combine two or more functions in order to create a new one. <br />
-SP: Cuando combinamos dos o más funciones para crear una nueva, la cual contiene las funciones anteriores.
+Cuando combinamos dos o más funciones para crear una nueva, la cual contiene las funciones anteriores.
 
 ```javascript
 var walk = function walk(name) {
@@ -90,8 +83,7 @@ Jhon.talk; // Jhon is talking
 ```
 
 ### Currying
-EN: It consists on convert a function with multiple parameters / arity in different functions with less parameters / arity. <br />
-SP: Consiste en convertir una función con múltiples parámetros / arity en diferentes funciones con menos parámetros.
+Consiste en convertir una función con múltiples parámetros / arity en diferentes funciones con menos parámetros.
 
 ```javascript
 // function without currying format
@@ -112,8 +104,7 @@ Jhon('Blast'); // My Name is Jhon Doe Blast
 ```
 
 ### Encapsulation
-EN: It allows us to conserve private and public declarations in a single object. <br />
-SP: Nos permite conservar declaraciones públicas y privadas en un solo objeto.
+Nos permite conservar declaraciones públicas y privadas en un solo objeto.
 
 ```javascript
 var security = function() {
@@ -140,8 +131,7 @@ sec.showCreditCard();   // Your credit card is 1111-2222-3333
 ```
 
 ### Factory
-EN: It is a function that returns a new object. <br />
-SP: Es una función que retorna un nuevo objeto.
+Es una función que retorna un nuevo objeto.
 
 ```javascript
 function calculator() {
@@ -168,8 +158,7 @@ function sum(num) {
 ```
 
 ### Inheritance
-EN: Link methods and/or properties from one object to another. <br />
-SP: Relacionar métodos y/o propiedades de un objeto a otro.
+Relacionar métodos y/o propiedades de un objeto a otro.
 
 ```javascript
 var calculator = {
@@ -188,8 +177,7 @@ cal.subtract(2,2); // 0
 ```
 
 ### Object Literal
-EN: It is an object which contains between curly braces properties with name:value format divided by commas. <br />
-SP: Es un objecto que contiene entre llaves propiedades con formato nombre:valor separados por comas.
+Es un objecto que contiene entre llaves propiedades con formato nombre:valor separados por comas.
 
 ```javascript
 var person = {
@@ -201,8 +189,7 @@ var person = {
 ```
 
 ### Polymorphism
-EN: The possibility to call common methods between different objects without alter the result. <br />
-SP: La posibilidad de llamar métodos en común de diferentes objectos sin alterar el resultado.
+La posibilidad de llamar métodos en común de diferentes objectos sin alterar el resultado.
 
 ```javascript
 function fruit(width, height) {
@@ -242,8 +229,7 @@ showDescription(myMarket);  // B. Fruit dimension w-50 / h-60 / $25
 ```
 
 ### Scope
-EN: It is the hierarchy about how to access variables, objects and functions. <br />
-SP: Es la jerarquía sobre cómo accesar las variables, objetos y funciones.
+Es la jerarquía sobre cómo accesar las variables, objetos y funciones.
 
 ```javascript
 var street = 'AVE51325';  /* Global variable */
