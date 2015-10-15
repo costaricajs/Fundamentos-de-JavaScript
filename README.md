@@ -132,7 +132,7 @@ sec.creditCard = '11';  /* You can try to change the credit card value but It's 
 sec.showCreditCard();   // Your credit card is 1111-2222-3333
 ```
 
-### Fábricas
+### Fábrica
 Es una función que retorna un nuevo objeto.
 
 ```javascript
@@ -147,16 +147,18 @@ cal.sum(1,2);
 ```
 
 ### Funciones de Orden Mayor 
-Es una función que puede recibir otra función como parámetro.
+Es una función que puede recibir otra función como parámetro, la cúal puede ser invocada por la función de order mayor.
 
 ```javascript
 function sum(num) {
   return num + 10
 }
 
-/* forEach is a function that receives another function */
-[1,2,3].forEach(sum); // 11 // 12 // 13
+/* map es una función de Array que recibe otra función y retorna un nuevo array con los resultado de ejecutar la función recibida con cada uno de elementos del arreglo */
+var summedNumbers = [1,2,3].map(sum); // [11, 12, 13]
 ```
+
+Las funciones que son enviadas como parámetros muchas veces son llamadas __callbacks__. 
 
 ### Herencia
 Relacionar métodos y/o propiedades de un objeto a otro.
