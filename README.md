@@ -154,7 +154,9 @@ function sum(num) {
   return num + 10
 }
 
-/* map es una función de Array que recibe otra función y retorna un nuevo array con los resultado de ejecutar la función recibida con cada uno de elementos del arreglo */
+/* map es una función de Array que recibe otra función. 
+   retorna un nuevo arreglo con los resultado de ejecutar la función recibida 
+   con cada uno de elementos del arreglo como parámetro  */
 var summedNumbers = [1,2,3].map(sum); // [11, 12, 13]
 ```
 
