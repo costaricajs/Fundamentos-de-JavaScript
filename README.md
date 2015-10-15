@@ -5,12 +5,12 @@ _Por favor notar que este documento en proceso de creación, las contribuciones 
 Descripción los Conceptos Fundamentales de JavaScript que nos permiten entender la abstraction de este lenguage.
 
 ### Tabla de Contenidos
-**[Funciones en Cadena](#chain-en-cadena)** <br/>
+**[Funciones en Cadena](#funciones-en-cadena)** <br/>
 **[Closure](#closure)** <br/>
-**[Composición](#composicion)** <br/>
+**[Composición](#composición)** <br/>
 **[Currying](#currying)** <br/>
 **[Encapsulación](#encapsulación)** <br/>
-**[Fábrica](#fabrica)** <br/>
+**[Fábrica](#fábrica)** <br/>
 **[Funciones de Orden Mayor](#funciones-de-orden-mayor)** <br/>
 **[Herencia](#herencia)** <br/>
 **[Objectos Literales](#objectos-literales)** <br/>
