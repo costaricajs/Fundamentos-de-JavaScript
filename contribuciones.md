@@ -12,6 +12,8 @@ Aportes no triviales a el contenido se conversan primero en el [issue tracker](h
 
 ## Pull Requests
 
+Cree un pull request por cambio siguiendo el [github flow](https://guides.github.com/introduction/flow/)
+
 * Por favor, asegúrese de que hay no hay pull requests existentes que intentan abordar el tema mencionado.
 * También recomendamos la comprobación de las cuestiones relacionadas con el tema en el [tracker](https://github.com/CostaRicaJS/Fundamentos-de-JavaScript/issues).
 * Cambios no triviales deben ser discutidos en un issue primero.  
