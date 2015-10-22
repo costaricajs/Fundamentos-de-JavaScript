@@ -18,3 +18,14 @@ Aportes no triviales a el contenido se conversan primero en el [issue tracker](h
 * Desarrollar en una rama específica, no en master.  
 * Escribir una buena descripción de su PR.  
 * Haz squash de tus commits.
+
+
+# Configuración de ambiente local
+```
+npm install -g gitbook-cli
+git clone git@github.com:CostaRicaJS/Fundamentos-de-JavaScript.git
+cd Fundamentos-de-JavaScript
+gitbook serve ./
+```
+más recursos para trabajar con Gitbooks en https://github.com/GitbookIO
+
