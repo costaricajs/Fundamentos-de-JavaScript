@@ -12,14 +12,16 @@ Aportes no triviales a el contenido se conversan primero en el [issue tracker](h
 
 ## Pull Requests
 
-Cree un pull request por cambio siguiendo el [github flow](https://guides.github.com/introduction/flow/)
+Para realizar pull request por favor seguir las siguientes indicaciones
 
-* Por favor, asegúrese de que hay no hay pull requests existentes que intentan abordar el tema mencionado.
-* También recomendamos la comprobación de las cuestiones relacionadas con el tema en el [tracker](https://github.com/CostaRicaJS/Fundamentos-de-JavaScript/issues).
+* Asegurarse de que hay no hay pull requests existentes que intentan abordar el tema.
+* Comprobar si hay discusiones relacionadas con el tema en el [issue tracker](https://github.com/CostaRicaJS/Fundamentos-de-JavaScript/issues).
+* Nuevas categorías o mejoras a la categorización existente son bienvenidas.
 * Cambios no triviales deben ser discutidos en un issue primero.  
+* Crear un pull request por sugerencia siguiendo el [github flow](https://guides.github.com/introduction/flow/).
 * Desarrollar en una rama específica, no en master.  
-* Escribir una buena descripción de su PR.  
-* Haz squash de tus commits.
+* Pull Request y Commits debe tener un título útil.
+* Haz squash de tus commits, 1 commit por cambio lógico. 
 
 
 # Configuración de ambiente local
