@@ -21,8 +21,7 @@ Para realizar pull request por favor seguir las siguientes indicaciones
 * Crear un pull request por sugerencia siguiendo el [github flow](https://guides.github.com/introduction/flow/).
 * Desarrollar en una rama específica, no en master.  
 * Pull Request y Commits debe tener un título útil.
-* Haz squash de tus commits, 1 commit por cambio lógico. 
-
+* Haz squash de tus commits, 1 commit por cambio lógico.
 
 # Configuración de ambiente local
 ```
@@ -33,3 +32,5 @@ gitbook serve ./
 ```
 más recursos para trabajar con Gitbooks en https://github.com/GitbookIO
 
+## Chat
+[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/CostaRicaJS/Fundamentos-de-JavaScript?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
