@@ -23,6 +23,8 @@ Para realizar pull request por favor seguir las siguientes indicaciones
 * Pull Request y Commits debe tener un título útil.
 * Haz squash de tus commits, 1 commit por cambio lógico.
 
+Recomedamos usar [hub](http://hub.github.com) para interactuar en github.
+
 # Configuración de ambiente local
 ```
 npm install -g gitbook-cli
