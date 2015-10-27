@@ -11,7 +11,6 @@ Utilizamos Kanban en Waffle.io para visualizar el progreso https://waffle.io/Cos
 [![devDependency Status](https://david-dm.org/CostaRicaJS/Fundamentos-de-JavaScript/dev-status.svg)](https://david-dm.org/CostaRicaJS/Fundamentos-de-JavaScript#info=devDependencies)
 
 
-
 Este es un libro escrito y mantenido por la comunidad de javascript que describe los conceptos fundamentales de JavaScript que nos permiten entender las abstraciones de este lenguage, patrones de diseño, mejores prácticas, browser APIs y NodeJS.
 
 ## Objetivos del libro
@@ -22,3 +21,9 @@ Este es un libro escrito y mantenido por la comunidad de javascript que describe
 - cubrir los patrones y características importantes del lenguage.
 - que sea gratuito y evolucione.
 - mantenido por la comunidad, vigilando la calidad y mejores prácticas.
+
+## Licencia
+
+Este libro se publica bajo una licencia [Creative Commons Atribución-NoComercial-SinDerivar 4.0 Internacional](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.es).
+
+Lo que esto significa es que el libro es libre para leer y utilizar, pero la licencia no permite el uso comercial del material; es decir, puedes imprimir libremente el libro para su propio uso, pero no puedes venderlo.
