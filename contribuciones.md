@@ -25,6 +25,13 @@ Para realizar pull request por favor seguir las siguientes indicaciones
 
 Recomedamos usar [hub](http://hub.github.com) para interactuar en github.
 
+Ejemplos de __buenos mensajes__ en commits:
+- agrega sección hoisting
+- actualiza ejemplo en patrón singleton
+- corrige intro a programación funcional
+- cambia título en sección ámbito
+
+
 # Configuración de ambiente local
 ```
 npm install -g gitbook-cli
