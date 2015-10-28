@@ -19,7 +19,9 @@ Para realizar pull request por favor seguir las siguientes indicaciones
 * Nuevas categorías o mejoras a la categorización existente son bienvenidas.
 * Cambios no triviales deben ser discutidos en un issue primero.  
 * Crear un pull request por sugerencia siguiendo el [github flow](https://guides.github.com/introduction/flow/).
-* Desarrollar en una rama específica, no en master.  
+* Desarrollar en una rama específica, no en master.
+* Seguir la [guía de estilo de airbnb](https://github.com/airbnb/javascript).
+* Siempre correr `npm test` antes de crear un pull request.  
 * Pull Request y Commits debe tener un título útil.
 * Haz squash de tus commits, 1 commit por cambio lógico.
 
@@ -31,7 +33,6 @@ Ejemplos de __buenos mensajes__ en commits:
 - corrige intro a programación funcional
 - cambia título en sección ámbito
 
-
 # Configuración de ambiente local
 ```
 npm install -g gitbook-cli
@@ -40,6 +41,8 @@ cd Fundamentos-de-JavaScript
 gitbook serve ./
 ```
 más recursos para trabajar con Gitbooks en https://github.com/GitbookIO
+
+
 
 ## Chat
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/CostaRicaJS/Fundamentos-de-JavaScript?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
