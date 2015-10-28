@@ -20,6 +20,7 @@ Para realizar pull request por favor seguir las siguientes indicaciones
 * Cambios no triviales deben ser discutidos en un issue primero.  
 * Crear un pull request por sugerencia siguiendo el [github flow](https://guides.github.com/introduction/flow/).
 * Desarrollar en una rama específica, no en master.  
+* Seguir la [guía de estilo de airbnb](https://github.com/airbnb/javascript).
 * Pull Request y Commits debe tener un título útil.
 * Haz squash de tus commits, 1 commit por cambio lógico.
 
