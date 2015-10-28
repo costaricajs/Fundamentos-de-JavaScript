@@ -1,6 +1,6 @@
 # Fundamentos de JavaScript
 
-_Por favor notar que este libro está proceso de creación, las [contribuciones son bienvenidas](https://github.com/CostaRicaJS/Fundamentos-de-JavaScript/blob/master/contribuciones.md). Únete a la conversación en [gitter](https://gitter.im/CostaRicaJS/Fundamentos-de-JavaScript) y el [issue tracker](https://github.com/CostaRicaJS/Fundamentos-de-JavaScript/issues)._ 
+_Por favor notar que este libro está proceso de creación, las [contribuciones son bienvenidas](https://github.com/CostaRicaJS/Fundamentos-de-JavaScript/blob/master/contribuciones.md). Únete a la conversación en [gitter](https://gitter.im/CostaRicaJS/Fundamentos-de-JavaScript) y el [issue tracker](https://github.com/CostaRicaJS/Fundamentos-de-JavaScript/issues)._
 
 Este es un libro escrito y mantenido por la comunidad de javascript que describe los conceptos fundamentales de JavaScript que nos permiten entender las abstraciones de este lenguage, patrones de diseño, mejores prácticas, browser APIs y NodeJS.
 
@@ -12,3 +12,9 @@ Este es un libro escrito y mantenido por la comunidad de javascript que describe
 - que cubra patrones y características importantes.
 - que sea gratuito y evolucione
 - mantenido por la comunidad, vigilando la calidad y mejores prácticas
+
+## Licencia
+
+Este libro se publica bajo una licencia [Creative Commons Atribución-NoComercial-SinDerivar 4.0 Internacional](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.es).
+
+Lo que esto significa es que el libro es libre para leer y utilizar, pero la licencia no permite el uso comercial del material; es decir, puedes imprimir libremente el libro para su propio uso, pero no puedes venderlo. 
