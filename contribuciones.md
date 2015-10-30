@@ -25,7 +25,7 @@ Para realizar pull request por favor seguir las siguientes indicaciones
 * Pull Request y Commits debe tener un título útil.
 * Haz squash de tus commits, 1 commit por cambio lógico.
 
-Recomedamos usar [hub](http://hub.github.com) para interactuar en github.
+Recomedamos usar [hub](http://hub.github.com) y [git-extras](https://github.com/tj/git-extras) para interactuar con github.
 
 Ejemplos de __buenos mensajes__ en commits:
 - agrega sección hoisting
