@@ -1,0 +1,26 @@
+{
+  "name": "fundamentos-de-javascript",
+  "version": "0.1.0",
+  "description": "Libro sobre Fundamendamentos de JavaScript mantenido por la comunidad",
+  "license": "CC-BY-NC-4.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CostaRicaJS/Fundamentos-de-JavaScript.git"
+  },
+  "keywords": [
+    "javascript"
+  ],
+  "bugs": {
+    "url": "https://github.com/CostaRicaJS/Fundamentos-de-JavaScript/issues"
+  },
+  "homepage": "https://github.com/CostaRicaJS/Fundamentos-de-JavaScript#readme",
+  "scripts": {
+    "test": "./node_modules/.bin/eslint --ext .md ."
+  },
+  "devDependencies": {
+    "babel-eslint": "^4.1.3",
+    "eslint": "^1.7.3",
+    "eslint-config-airbnb": "^0.1.0",
+    "eslint-plugin-markdown": "git+https://github.com/eslint/eslint-plugin-markdown.git"
+  }
+}
