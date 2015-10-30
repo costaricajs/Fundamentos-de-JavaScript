@@ -33,16 +33,12 @@ Ejemplos de __buenos mensajes__ en commits:
 - corrige intro a programación funcional
 - cambia título en sección ámbito
 
-# Configuración de ambiente local
+# Correr el libro en ambiente local
 ```
-npm install -g gitbook-cli
-git clone git@github.com:CostaRicaJS/Fundamentos-de-JavaScript.git
-cd Fundamentos-de-JavaScript
-gitbook serve ./
+npm install
+npm start
 ```
 más recursos para trabajar con Gitbooks en https://github.com/GitbookIO
-
-
 
 ## Chat
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/CostaRicaJS/Fundamentos-de-JavaScript?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
