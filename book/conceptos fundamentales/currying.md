@@ -1,5 +1,5 @@
 # Currying
-Consiste en convertir una función con múltiples parámetros / arity en diferentes funciones con menos parámetros.
+Consiste en convertir una función con múltiples parámetros en diferentes funciones con menos parámetros.
 
 ```javascript
 // función sin formato currying (SC = sin currying)

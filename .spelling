@@ -1,0 +1,39 @@
+# markdown-spellcheck spelling configuration file
+# Format - lines beginning # are comments
+# global dictionary is at the start, file overrides afterwards
+# one word per line, to define a file override use ' - filename'
+# where filename is relative to this configuration file
+básicos
+jerarquía
+accesar
+función
+composición
+más
+múltiples
+parámetros
+públicas
+parámetro
+técnica
+ejecución
+métodos
+fábrica
+común
+prácticas
+programación
+apis
+encapsulación
+ - ./book/conceptos fundamentales/README.md
+README
+ - ./book/conceptos fundamentales/closure.md
+Closure
+ - ./book/conceptos fundamentales/currying.md
+Currying
+ - ./book/conceptos fundamentales/encapsulación.md
+Encapsulación
+ - ./book/conceptos fundamentales/funciones-de-orden-mayor.md
+callbacks
+ - ./book/modelo de concurrencia y event loop/modelo-de-concurrencia-y-event-loop.md
+Event
+loop
+ - ./book/nodejs/README.md
+NodeJS
