@@ -1,5 +1,5 @@
 # Funciones de Orden Mayor 
-Es una función que puede recibir otra función como parámetro, la cúal puede ser invocada por la función de order mayor.
+Es una función que puede recibir otra función como parámetro, la cual puede ser invocada por la función de orden mayor.
 
 ```javascript
 function sumar(num) {
