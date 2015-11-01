@@ -1,7 +1,8 @@
 # Fundamentos de JavaScript
 
 _Por favor notar que este libro está proceso de creación, las [contribuciones son bienvenidas](https://github.com/CostaRicaJS/Fundamentos-de-JavaScript/blob/master/CONTRIBUTING.md).   
-Únete a la conversación en [gitter](https://gitter.im/CostaRicaJS/Fundamentos-de-JavaScript) y el [issue tracker](https://github.com/CostaRicaJS/Fundamentos-de-JavaScript/issues)._
+Únete a la conversación en [gitter](https://gitter.im/CostaRicaJS/Fundamentos-de-JavaScript) y el [issue tracker](https://github.com/CostaRicaJS/Fundamentos-de-JavaScript/issues).  
+Utilizamos Kanban en Waffle.io para visualizar el progreso https://waffle.io/CostaRicaJS/Fundamentos-de-JavaScript/join_
 
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/CostaRicaJS/Fundamentos-de-JavaScript?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 [![Stories in Ready](https://badge.waffle.io/CostaRicaJS/Fundamentos-de-JavaScript.svg?label=ready&title=Ready)](http://waffle.io/CostaRicaJS/Fundamentos-de-JavaScript)
