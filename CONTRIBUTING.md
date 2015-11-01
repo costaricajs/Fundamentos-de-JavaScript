@@ -33,6 +33,11 @@ Ejemplos de __buenos mensajes__ en commits:
 - corrige intro a programación funcional
 - cambia título en sección ámbito
 
+## Como mantenedor del proyecto
+
+- Usar [hub](http://hub.github.com) y [git-extras](https://github.com/tj/git-extras) para interactuar con github.
+- No utilizar el botón _merge pull request_ en el UI de github. Utilizar hub para hacer merges. Esto evita ensuciar el commit log y permite mas flexibilidad. [Más detalles](http://blog.spreedly.com/2014/06/24/merge-pull-request-considered-harmful/).
+
 # Correr el libro en ambiente local
 ```
 npm install
@@ -40,5 +45,5 @@ npm start
 ```
 más recursos para trabajar con Gitbooks en https://github.com/GitbookIO
 
-## Chat
+# Chat
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/CostaRicaJS/Fundamentos-de-JavaScript?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
