@@ -1,5 +1,5 @@
 # Alcance
-Es la jerarquía sobre cómo accesar las variables, objetos y funciones.
+Es la jerarquía sobre como accesar las variables, objetos y funciones.
 
 ```javascript
 const avenida = 'AVE51325';   /* Variable Global */

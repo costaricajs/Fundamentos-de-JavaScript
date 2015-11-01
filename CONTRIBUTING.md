@@ -22,6 +22,7 @@ Para realizar pull request por favor seguir las siguientes indicaciones
 * Desarrollar en una rama específica, no en master.
 * Seguir la [guía de estilo de airbnb](https://github.com/airbnb/javascript).
 * Siempre correr `npm test` antes de crear un pull request.  
+* Siempre correr `npm run spellcheck` para verificar que no hay errores ortográficos.
 * Pull Request y Commits debe tener un título útil.
 * Haz squash de tus commits, 1 commit por cambio lógico.
 
