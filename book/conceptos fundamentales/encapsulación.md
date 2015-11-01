@@ -2,21 +2,19 @@
 Nos permite conservar declaraciones públicas y privadas en un mismo objeto.
 
 ```javascript
-var seguridad = function() {
-  
+const seguridad = () => {
   // Declaraciones Privadas
-  var tarjetaCredito = '1111-2222-3333';
-  
+  const tarjetaCredito = '1111-2222-3333';
+
   return {
     // Declaraciones Públicas
-    mostrarTarjetaCredito: function() {
+    mostrarTarjetaCredito: () => {
       console.log('Tu tarjeta de crédito es ' + tarjetaCredito);
-    }
-  }
-  
-}
+    },
+  };
+};
 
-var sec = seguridad();
+const sec = seguridad();
 
 sec.mostrarTarjetaCredito();   // Tu tarjeta de crédito es 1111-2222-3333
 

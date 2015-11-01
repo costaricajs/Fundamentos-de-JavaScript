@@ -3,34 +3,29 @@ La posibilidad de llamar métodos en común de diferentes objectos sin alterar e
 
 ```javascript
 function fruta(ancho, alto) {
-
   return {
-  
-    descripcion: function() { 
+    descripcion() {
       console.log('A. Dimensión de Fruta: ancho-' + ancho + ' / alto-' + alto);
-    }
-    
-  }
-}; 
-
-function mercado(ancho, alto, precio) {
-  
-  return {
-  
-    descripcion: function() { 
-      console.log('B. Dimensión de Fruta: ancho-' + ancho + ' / alto-' + alto + ' / $' + precio);
-    }
-    
-  }
-};
-
-function mostrarDescripcion(obj) {
-  if (typeof obj.descripcion == 'function')
-    obj.descripcion(); /* <-- Polimorfismo */
+    },
+  };
 }
 
-var miFruta   = fruta(50,60);
-var miMercado = mercado(50,60,25);
+function mercado(ancho, alto, precio) {
+  return {
+    descripcion() {
+      console.log('B. Dimensión de Fruta: ancho-' + ancho + ' / alto-' + alto + ' / $' + precio);
+    },
+  };
+}
+
+function mostrarDescripcion(obj) {
+  if (typeof obj.descripcion === 'function') {
+    obj.descripcion(); /* <-- Polimorfismo */
+  }
+}
+
+const miFruta = fruta(50, 60);
+const miMercado = mercado(50, 60, 25);
 
 mostrarDescripcion(miFruta);    // A. Dimensión de Fruta: ancho-50 / alto-60
 mostrarDescripcion(miMercado);  // B. Dimensión de Fruta: ancho-50 / alto-60 / $25
