@@ -2,10 +2,12 @@
 Es un objecto que contiene entre llaves propiedades con formato nombre:valor separados por comas.
 
 ```javascript
-var persona = {
-  manos     : 2,
-  piernas   : 2,
-  caminar   : function() { console.log('Caminando'); },
-  hablar    : function() { console.log('Hablando'); }
-}
+const persona = {
+  manos: 2,
+  piernas: 2,
+  caminar: () => { console.log('Caminando'); },
+  hablar: () => { console.log('Hablando'); },
+};
+
+console.log(persona.manos); // 2
 ```
