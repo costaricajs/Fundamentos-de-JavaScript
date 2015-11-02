@@ -2,6 +2,10 @@
 
 Más que felices de aceptar contribuciones externas al proyecto en forma de retroalimentación, informes de errores o incluso mejor - pull requests :)
 
+Útilizamos Kanban con Waffle.io para visualizar el progreso y manejar prioridades del proyecto  
+visita https://waffle.io/CostaRicaJS/Fundamentos-de-JavaScript/join   
+En la columna "listo" encontrarás todos las tareas que están listas para ser desarrolladas. 
+
 ## Presentación de propuestas y reporte de errores
 
 Antes de presentar su propuesta por favor utilizar la función de búsqueda el [issue tracker](https://github.com/CostaRicaJS/Fundamentos-de-JavaScript/issues) para asegurarse de que no se haya ya reportado el error y no se haya conversado ya al respecto.
@@ -22,6 +26,7 @@ Para realizar pull request por favor seguir las siguientes indicaciones
 * Desarrollar en una rama específica, no en master.
 * Seguir la [guía de estilo de airbnb](https://github.com/airbnb/javascript).
 * Siempre correr `npm test` antes de crear un pull request.  
+* Conectar el PR a issue abierto con el keywork `connects to #XX` en la descripción del PR. más info http://bit.ly/1k58aWF   
 * Pull Request y Commits debe tener un título útil.
 * Haz squash de tus commits, 1 commit por cambio lógico.
 
