@@ -48,6 +48,7 @@ Ejemplos de __buenos mensajes__ en commits:
 npm install
 npm start
 ```
+recomendamos utilizar [avn y nvm para manejar las versiones de nodejs](http://gaboesquivel.com/blog/2015/automatic-node-dot-js-version-switching/)   
 más recursos para trabajar con Gitbooks en https://github.com/GitbookIO
 
 # Chat
