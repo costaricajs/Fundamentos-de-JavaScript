@@ -1,1 +1,0 @@
-# Modelo de concurrencia y Event loop
