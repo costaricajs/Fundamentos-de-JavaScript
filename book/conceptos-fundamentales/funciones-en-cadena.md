@@ -1,4 +1,4 @@
-# Funciones en Cadena
+# Funciones en Cadena [Method Chaining]
 
 Técnica para simplificar la ejecución de múltiples métodos sobre una misma variable u objeto.
 
