@@ -22,18 +22,53 @@ prácticas
 programación
 apis
 encapsulación
+readme
+javascript
+tc39
  - ./book/conceptos-fundamentales/README.md
 README
- - ./book/conceptos-fundamentales/closure.md
+ - ./book/conceptos-fundamentales/cierres.md
 Closure
  - ./book/conceptos-fundamentales/currying.md
 Currying
- - ./book/conceptos-fundamentales/encapsulación.md
+ - ./book/conceptos-fundamentales/encapsulacion.md
 Encapsulación
- - ./book/conceptos-fundamentales/funciones-de-orden-mayor.md
+ - ./book/paradigmas-de-programacion/funcional/bases-y-conceptos/funciones-de-alto-orden.md
 callbacks
- - ./book/modelo-de-concurrencia-y-event-loop/modelo-de-concurrencia-y-event-loop.md
+ - ./book/ejecucion-de-programas-de-javascript/modelo-de-concurrencia.md
 Event
 loop
- - ./book/nodejs/README.md
+ - ./book/ejecucion-de-programas-de-javascript/nodejs/README.md
 NodeJS
+- ./book/buenas-practicas/README.md
+- ./book/buenas-practicas/behavior-driven-development.md
+Behavior
+Driven
+Development
+- ./book/buenas-practicas/github-flow.md
+GitHub
+Flow
+- ./book/buenas-practicas/control-de-calidad-y-guias-de-estilo.md
+Guías
+- ./book/buenas-practicas/javascript-idiomatico.md
+Idiomático
+- ./book/conceptos-fundamentales/ambito.md
+Scope
+- ./book/conceptos-fundamentales/encapsulacion.md
+Encapsulation
+- ./book/conceptos-fundamentales/funciones-en-cadena.md
+Method
+Chaining
+- ./book/ejecucion-de-programas-de-javascript/file-system.md
+File
+System
+- ./book/ejecucion-de-programas-de-javascript/javascript-engines.md
+Engines
+- ./book/ejecucion-de-programas-de-javascript/stack-de-llamadas.md
+Stack
+- ./book/ejecucion-de-programas-de-javascript/storage.md
+Storage
+- ./book/ejecucion-de-programas-de-javascript/web-sockets.md
+Sockets
+- ./book/conceptos-fundamentales/modulos.md
+Módulos

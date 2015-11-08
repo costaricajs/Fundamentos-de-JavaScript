@@ -1,0 +1,1 @@
+## Cadena de caracteres [Pagina]
