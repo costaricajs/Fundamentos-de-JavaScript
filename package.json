@@ -17,7 +17,7 @@
   "scripts": {
     "test": "npm run lint && npm run spelltest",
     "lint": "./node_modules/.bin/eslint --ext .md .",
-    "start": "./node_modules/.bin/gitbook serve ./",
+    "start": "./node_modules/.bin/gitbook install && ./node_modules/.bin/gitbook serve ./",
     "spellcheck": "./node_modules/.bin/mdspell --es-es ./book/**/**.md",
     "spelltest": "./node_modules/.bin/mdspell --es-es -r ./book/**/**.md"
   },

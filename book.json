@@ -1,5 +1,12 @@
 {
     "structure": {
         "readme": "README.md"
+    },
+    "plugins": ["edit-link"],
+    "pluginsConfig": {
+            "edit-link": {
+                "base": "https://github.com/CostaRicaJS/Fundamentos-de-JavaScript/edit/master",
+                "label": "Editar esta página"
+            }
     }
 }
