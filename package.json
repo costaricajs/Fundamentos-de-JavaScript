@@ -22,7 +22,7 @@
     "spelltest": "./node_modules/.bin/mdspell --es-es -r ./book/**/**.md"
   },
   "devDependencies": {
-    "babel-eslint": "^4.1.3",
+    "babel-eslint": "^4.1.8",
     "eslint": "^1.7.3",
     "eslint-config-airbnb": "^3.1.0",
     "eslint-plugin-markdown": "git+https://github.com/eslint/eslint-plugin-markdown.git",
